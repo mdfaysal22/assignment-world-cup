@@ -26,6 +26,8 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
+/* Button Orange */
 .btn-orange {
   padding: 16px 25px;
   border-radius: 5px;
@@ -43,7 +45,7 @@ font-family: 'Roboto', sans-serif;
 .btn-orange:hover {
   background-color: #c94000;
 }
-
+/* Main Bannar */
 #bannar {
   width: 90%;
   background-color: #020e29;
@@ -90,6 +92,8 @@ font-family: 'Roboto', sans-serif;
   padding: 0.5rem 1rem;
   border-radius: 10px;
 }
+
+/* Bannar Button Here. */
 #blogs .blog-btn-group .btn {
   padding: 10px 20px;
   margin: 0.5rem 0;
@@ -278,7 +282,7 @@ font-family: 'Roboto', sans-serif;
 #footer-section .footer-container .footer-logo .footer-menu ul li:hover a {
   color: #fe5e15;
 }
-
+/* Media Quary For Mobile Devices Max-width 567px */
 @media only screen and (max-width: 567px) {
   #bannar {
     width: 100%;
@@ -360,6 +364,8 @@ font-family: 'Roboto', sans-serif;
     padding: 0 1rem;
   }
 }
+
+/* Media Quary for Mobile Landscope and Tablet View */
 @media only screen and (min-width: 568px) and (max-width: 768px) {
   #bannar {
     width: 100%;
@@ -452,6 +458,8 @@ font-family: 'Roboto', sans-serif;
     padding: 0 1rem;
   }
 }
+
+/* Media Quary for Landscope Tablet View and Desktop View up to 991px */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   #bannar {
     width: 100%;
@@ -544,6 +552,8 @@ font-family: 'Roboto', sans-serif;
     padding: 0 1rem;
   }
 }
+
+/* Media Quary for Large Screen */
 @media only screen and (min-width: 992px) and (max-width: 1240px) {
   #bannar .bannar-container {
     flex-direction: row;
